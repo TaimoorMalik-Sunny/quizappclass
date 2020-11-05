@@ -14,11 +14,12 @@ export type  QuetionType={
     question: string
     answer: string
     option: string[]
+    correct_answer: string
 }
 
 export type questionPropsType = {
     question: string
     options : string[]
-    callback : (e:React.FormEvent<EventTarget>)=>void
+    callback : (e:React.FormEvent<EventTarget>, ans: string)=>void
 
 }
