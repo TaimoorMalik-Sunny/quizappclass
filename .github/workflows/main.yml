@@ -41,4 +41,4 @@ jobs:
         run: npm install -g surge
  
       - name: Deploying surge
-        run: surge ./build http://typeScript-quizApp.surge.sh/ --token ${{ secrets.SURGE_TOKEN }} 
+        run: surge ./build http://taimoor-ts-quizapp.surge.sh/ --token ${{ secrets.SURGE_TOKEN }} 
