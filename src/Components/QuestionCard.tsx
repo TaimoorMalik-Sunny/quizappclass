@@ -16,7 +16,9 @@ const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback
     //  console.log(question,options)
     return (
         <div className="question-container">
+           
             <div className="question ">
+            <h2>Quiz APP</h2>
                 {question}
 
             </div>

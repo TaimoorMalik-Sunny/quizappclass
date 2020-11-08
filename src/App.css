@@ -1,5 +1,12 @@
 .App{
+    
+    height: 600px;
     text-align: center;
+    background-image: url();
+    background: url(../src/images/qbg.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .question-container{
     text-align: left;
@@ -7,7 +14,9 @@
     box-shadow: 10px 10px 10px #d68a8a;
     padding: 20px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-right: 180px;
+    margin-top: 120px;
+    color: white;
 
 }
 .question-form .submit{
