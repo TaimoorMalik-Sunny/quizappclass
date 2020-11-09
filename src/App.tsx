@@ -48,11 +48,15 @@ function App() {
   if(!quiz.length)
   return<h3>Loading...</h3>
 
-  if (showScore){
-    return(<div className="question-container result-container" > 
+  if (!showScore){
+    return(<div className="App-Scrore">
+        <h2>Quiz APP</h2>
+    <div className="result-container" > 
+    <h2>Quiz APP</h2>
+  
       <h3>Result</h3>
       <p>Your final Scoure is  =  <b>{score}</b> Out of : <b>{quiz.length}</b></p>
-    </div>)
+    </div></div>)
   }
   return (
     <div className="App">
