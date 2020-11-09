@@ -48,7 +48,7 @@ function App() {
   if(!quiz.length)
   return<h3>Loading...</h3>
 
-  if (!showScore){
+  if (showScore){
     return(<div className="App-Scrore">
         <h2>Quiz APP</h2>
     <div className="result-container" > 
